@@ -1,0 +1,13 @@
+# 1. 先忽略根目录下所有东西
+/*
+
+# 2. 放开两个文件夹本体
+!/Assets/
+!/ProjectSettings/
+
+# 3. 放开这两个文件夹内部所有文件（关键！你之前就是缺/错了这步）
+!/Assets/**
+!/ProjectSettings/**
+
+# 4. 放开 .gitignore 自己
+!/.gitignore
